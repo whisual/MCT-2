@@ -1,0 +1,89 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    font-family: 'Poppins', sans-serif; 
+}
+.title{
+    text-align: center;
+    color: #003c2f;
+    margin-top: 80px; 
+    margin-bottom: 30px;
+    font-weight: 1000;
+}
+
+/* Navbar section  */
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    padding: 18px 0;
+    position: sticky;
+    width: 100%;
+    background-color: white;
+}
+.nav_list{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav_list a{
+    text-decoration: none;
+    color: gray ;
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav_list li{
+    list-style: none;
+    margin: 0 18px;
+    padding: 0 12px;
+}
+
+/* Body section  */
+
+.body{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://thumbs.dreamstime.com/b/menu-recipe-mock-up-banner-food-seasoning-background-spices-herbs-round-wooden-cutting-board-brown-dark-backdrop-top-view-137318231.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-text{
+    font-family: Courgette,cursive;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 2;
+    color: white;
+}
+.search-text{
+    font-family: Courgette,cursive;
+    font-weight: 500;
+    margin-top: 150px;
+    margin-bottom: 2;
+    color: black;
+}
+.btn{
+    color: white;
+    background-color: #1f88be;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+#btn2{
+    background-color: rgb(57, 57, 255);
+    width: 70px;
+    height: 40px;
+}
+.search-body{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
