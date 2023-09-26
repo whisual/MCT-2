@@ -53,7 +53,7 @@ const getRecipe = (item) => {
     a1.innerHTML = "Source Url"
     a1.target = `blank`
     b.appendChild(a2)
-    a2.innerHTML = "Back To Home"
+    a2.innerHTML = "Home"
 
     card.appendChild(img)
     card.appendChild(head)
